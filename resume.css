@@ -1,0 +1,137 @@
+.image{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    border: 1px solid aquamarine;
+    width: 15%;
+    padding-bottom:50%;
+    background-color: aquamarine;
+    padding-top: 30px;
+    
+}
+.image p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:30px ;
+}
+.imga{
+    margin-left: 30px;
+    width:"70%";
+    height:"85%"
+}
+.image a{
+    padding-left: 30px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.data h1{
+    border: 1px solid greenyellow;
+    width:30%;
+    border-radius: 10px;
+    color: skyblue;
+    background-color: greenyellow;
+    font-family:Gill Sans;
+}
+.imgtwo{
+    width:400px;
+    height:400px;
+}
+.heading{
+    width: 40%;
+    border: 1px solid orange;
+    width:10%; 
+    background-color: orange;
+}
+.headingone{
+      width:50%;
+      border: 1px solid orange; 
+      width:14%; 
+      background-color: orange;
+     
+}
+.headingtwo{
+    width:65%;
+    border: 1px solid orange; 
+    width:28%;
+     background-color: orange;
+}
+.headingthree{
+    width:60%;
+    border: 1px solid orange; width:13%; background-color: orange;
+}
+
+
+
+.d-block{
+    margin-left:25%;
+    width: 50vw;
+    height: 50vh;
+    
+} 
+.skills{
+   margin-left:20%;
+}
+
+
+
+@media(max-width:576px){
+    .image{
+    margin-left:0px;
+    display: flex;
+    flex-direction: column;
+    column-gap:10px;
+    border: 1px solid aquamarine;
+    width: 15%;
+    padding-bottom:25%;
+    background-color: aquamarine;
+    padding-top: 30px;
+    padding-right:10px;
+    
+    
+}
+.imga{
+    margin-left:0px;
+    width:"70%";
+    height:"85%"
+}
+.image p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:0px ;
+    font-size:7px;
+}
+
+.image a{
+    padding-left:0px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    column-gap:50px;
+}
+.data h1{
+    border: 1px solid greenyellow;
+    width:60%;
+    border-radius: 10px;
+    color: skyblue;
+    background-color: greenyellow;
+}
+.heading{
+    width:25%;
+}
+.headingone{
+      width:40%;
+}
+.headingtwo{
+    width:65%;
+}
+.headingthree{
+    width:27%;
+}
+
+}

@@ -1,0 +1,27 @@
+*{
+    background-color:peachpuff;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    column-gap: 20px;
+}
+
+@media(max-width:576px){
+    .home{
+    display: flex;
+    flex-direction:column;
+    row-gap: 20px;
+    font-size: 15px;
+}
+}
+
+@media(min-width:576px ) and (max-width:768px){
+    .home{
+    display: flex;
+    flex-direction:column;
+    row-gap: 20px;
+    font-size: 15px;
+}
+}
