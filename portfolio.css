@@ -45,7 +45,10 @@
     margin-left: 10px;
     border: 1px solid white;
     border-radius: 10px;
-    background-color: palevioletred;
+    background-color: #F4F7FC;
+}
+.resume a :hover{
+     background-color: #1E40AF;
 }
 .navbar a h2{
     border: 1px solid palevioletred;
