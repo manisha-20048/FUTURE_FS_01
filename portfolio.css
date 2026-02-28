@@ -45,7 +45,9 @@
     margin-left: 10px;
     border: 1px solid white;
     border-radius: 10px;
-    background-color: #F4F7FC;
+    background-color: #2563EB;
+    cursor:pointer;
+    font-size:16px;
 }
 .resume a :hover{
      background-color: #1E40AF;
